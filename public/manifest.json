@@ -1,0 +1,17 @@
+{
+  "name": "MikoSea Test PWA",
+  "short_name": "App",
+  "icons": [
+    {
+      "src": "/icons/f1742ba4-5ef3-4b32-83dd-f79070e7a513.ico",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
