@@ -7,16 +7,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-
       - uses: actions/setup-node@v3
         with:
           # update the Node version to meet your needs
           node-version: 16
           cache: npm
-
       - name: Build
         run: |
           npm ci
