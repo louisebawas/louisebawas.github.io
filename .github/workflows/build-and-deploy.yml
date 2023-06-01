@@ -20,6 +20,10 @@ jobs:
           npm run build
           npm run export
           touch out/.nojekyll
+        env:
+          DATABASE_URL: ${{ vars.DATABASE_URL }}
+          NEXTAUTH_SECRET: ${{ vars.NEXTAUTH_SECRET }}
+          NEXTAUTH_URL: ${{ vars.NEXTAUTH_URL }}
 
       - name: Deploy
         # configure an external GitHub Pages deploy workflow here
