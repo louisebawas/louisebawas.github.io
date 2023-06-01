@@ -18,7 +18,6 @@ jobs:
         run: |
           npm ci
           npm run build
-          npm run export
           touch out/.nojekyll
         env:
           DATABASE_URL: ${{ vars.DATABASE_URL }}
