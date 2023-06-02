@@ -3,10 +3,16 @@
   "short_name": "MikoSea",
   "icons": [
     {
-      "src": "/icons/mikosea.png",
+      "src": "/icons/mikosea-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/mikosea-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "theme_color": "#FFFFFF",
